@@ -1,0 +1,337 @@
+================================================================
+======== Log Rotated - 05.05.2025, 00:00:00                     
+================================================================
+[      script:hardcap] Connecting: ФимоZ
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "Zeus_Scope"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for Zeus_Scope
+[           resources] Started resource Zeus_Scope
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "vorp_weaponsv2"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for vorp_weaponsv2
+[           resources] Started resource vorp_weaponsv2
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "undead_custom"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for undead_custom
+[           resources] Started resource undead_custom
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[script:undead_custom] get init trying	1
+║             Kidirro║ ensure "vorp_progressbar"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for vorp_progressbar
+[           resources] Started resource vorp_progressbar
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "vorp_weaponsv2"
+[           resources] Stopping resource vorp_weaponsv2
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for vorp_weaponsv2
+[           resources] Started resource vorp_weaponsv2
+[script:vorp_inventor] Warning: item 	ammoelephant	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoriflesplitpoint	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorifleexplosive	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoriflevelocity	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorifleexpress	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoriflenormal	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorevolvernormal	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorevolversplitpoint	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorevolvervelocity	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorevolverexplosive	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorevolverexpress	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammopistolvelocity	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammopistolexpress	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammopistolnormal	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammopistolsplitpoint	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammopistolexplosive	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoarrownormal	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoarrowimproved	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoarrowdynamite	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoarrowfire	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoarrowpoison	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoarrowsmallgame	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammovarminttranq	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammovarmint	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammovolmolotov	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoknives	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammodynamite	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammopoisonbottle	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammobolla	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammovoldynamite	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammomolotov	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammotomahawk	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorepeatersplitpoint	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorepeatervelocity	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorepeaternormal	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorepeaterexplosive	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammorepeaterexpress	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoshotgunnormal	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoshotgunslug	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoshotgunexplosive	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[script:vorp_inventor] Warning: item 	ammoshotgunincendiary	 is already registered,  cant register the same item twice 	
+[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "undead_custom"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource undead_custom
+[    c-scripting-core] Creating script environments for undead_custom
+[           resources] Started resource undead_custom
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[script:undead_custom] get init trying	1
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Kidirro\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [19060] FXServer Starting - 05.05.2025, 00:46:47       
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 74 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[           resources] Started resource pma-display
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource redm-ipls
+[           resources] Started resource syn_minigame
+[           resources] Started resource lockpick
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[           resources] Started resource moonshine_interiors
+[           resources] Started resource vorp_menu
+[    c-scripting-core] Creating script environments for vorp_core
+[           resources] Started resource vorp_core
+[           resources] Started resource vorp_inputs
+[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] Creating script environments for vorp_character
+[           resources] Started resource vorp_character
+[    c-scripting-core] Creating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[      script:oxmysql] Warning: vorp_inventory executed a query with an oversized result set (1014 results)!
+[      script:oxmysql] SELECT * FROM items
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_character) ✅ Up to date - Version 1.7
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ✅ Up to date - Version 2.9
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ✅ Up to date - Version 2.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ✅ Up to date - Version 4.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_menu) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Database Auto Updater 
+[    script:vorp_core] 
+[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
+[    script:vorp_core] ###############################################################################
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://kidirro-ro3pbj.users.cfx.re/
+[      script:hardcap] Connecting: ФимоZ
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "undead_custom"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for undead_custom
+[           resources] Started resource undead_custom
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[script:undead_custom] get init trying	1
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [8880] FXServer Starting - 05.05.2025, 19:26:12        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 74 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[           resources] Started resource pma-display
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource redm-ipls
+[           resources] Started resource syn_minigame
+[           resources] Started resource lockpick
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[           resources] Started resource moonshine_interiors
+[           resources] Started resource vorp_menu
+[    c-scripting-core] Creating script environments for vorp_core
+[           resources] Started resource vorp_core
+[           resources] Started resource vorp_inputs
+[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] Creating script environments for vorp_character
+[           resources] Started resource vorp_character
+[    c-scripting-core] Creating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[      script:oxmysql] Warning: vorp_inventory executed a query with an oversized result set (1014 results)!
+[      script:oxmysql] SELECT * FROM items
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://kidirro-ro3pbj.users.cfx.re/
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_character) ✅ Up to date - Version 1.7
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ✅ Up to date - Version 2.9
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ✅ Up to date - Version 2.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ✅ Up to date - Version 4.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_menu) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Database Auto Updater 
+[    script:vorp_core] 
+[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
+[    script:vorp_core] ###############################################################################
+[      script:hardcap] Connecting: ФимоZ

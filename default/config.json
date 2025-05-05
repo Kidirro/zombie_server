@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "general": {
+    "serverName": "zombie-test"
+  },
+  "server": {
+    "dataPath": "E:/Server_RDR/txData/VORPCore_14316F.base/"
+  }
+}

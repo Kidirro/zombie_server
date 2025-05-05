@@ -1,0 +1,41 @@
+[
+  {
+    "$schema": 1,
+    "name": "Kidirro",
+    "master": true,
+    "password_hash": "$2a$11$i4HJ.8As..p6f6qZdOJGqu0TzfsMXVw5NEhS9LKpa7mo/8M0PHyea",
+    "providers": {
+      "citizenfx": {
+        "id": "Kidirro",
+        "identifier": "fivem:13913763",
+        "data": {}
+      }
+    },
+    "permissions": []
+  },
+  {
+    "$schema": 1,
+    "name": "twains",
+    "master": false,
+    "password_hash": "$2a$11$rredoDLye0fCh4DWa2m2eO0irGQv2AN3qx0dTiGnbCQrrCxdo7Foq",
+    "password_temporary": true,
+    "providers": {
+      "citizenfx": {
+        "id": "Twains_1",
+        "identifier": "fivem:15363804",
+        "data": {}
+      },
+      "discord": {
+        "id": "584088337581735937",
+        "identifier": "discord:584088337581735937",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "menu.vehicle",
+      "players.heal",
+      "players.playermode",
+      "players.teleport"
+    ]
+  }
+]

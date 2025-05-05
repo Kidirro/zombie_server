@@ -1,0 +1,356 @@
+================================================================
+======== Log Rotated - 03.05.2025, 00:00:00                     
+================================================================
+[      script:hardcap] Connecting: ФимоZ
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "vorp_admin"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource vorp_admin
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Kidirro\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [300] FXServer Starting - 03.05.2025, 00:16:39         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 71 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[           resources] Started resource pma-display
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource redm-ipls
+[           resources] Started resource syn_minigame
+[           resources] Started resource lockpick
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[           resources] Started resource moonshine_interiors
+[           resources] Started resource vorp_menu
+[    c-scripting-core] Creating script environments for vorp_core
+[           resources] Started resource vorp_core
+[           resources] Started resource vorp_inputs
+[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] Creating script environments for vorp_character
+[           resources] Started resource vorp_character
+[    c-scripting-core] Creating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://kidirro-ro3pbj.users.cfx.re/
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_character) ✅ Up to date - Version 1.7
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ✅ Up to date - Version 2.9
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ✅ Up to date - Version 2.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ✅ Up to date - Version 4.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_menu) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Database Auto Updater 
+[    script:vorp_core] 
+[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
+[    script:vorp_core] ###############################################################################
+[      script:hardcap] Connecting: ФимоZ
+[      script:hardcap] Connecting: Twains
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "undead_custom"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for undead_custom
+[           resources] Started resource undead_custom
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "walk_speed"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource walk_speed
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "walk_speed"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource walk_speed
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "walk_speed"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource walk_speed
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "walk_speed"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource walk_speed
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "walk_speed"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource walk_speed
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "walk_speed"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource walk_speed
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaEvent "announcement" "{\"message\":\"52 в чат\",\"author\":\"Kidirro\"}"
+[         script:chat] ФимоZ: 52
+[         script:chat] Twains: 552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525552525252522525252252252252525252525252555252525252252525225225225252525252525255525252525225252522522522525252525252525
+║             TXADMIN║ txaEvent "announcement" "{\"message\":\"52525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252\",\"author\":\"Kidirro\"}"
+║             Kidirro║ ensure "walk_speed"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource walk_speed
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "walk_speed"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource walk_speed
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "walk_speed"
+[           resources] Stopping resource walk_speed
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "walk_speed"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource walk_speed
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaEvent "adminsUpdated" "[1,2]"
+║             TXADMIN║ txaEvent "adminsUpdated" "[1,2]"
+║             TXADMIN║ txaEvent "adminsUpdated" "[1,2]"
+║             Kidirro║ ensure "vorp_admin"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource vorp_admin
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "vorp_admin"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource vorp_admin
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "vorp_admin"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource vorp_admin
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "vorp_admin"
+[           resources] Stopping resource vorp_admin
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Kidirro\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [21780] FXServer Starting - 03.05.2025, 01:48:09       
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 71 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[           resources] Started resource pma-display
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource redm-ipls
+[           resources] Started resource syn_minigame
+[           resources] Started resource lockpick
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[           resources] Started resource moonshine_interiors
+[           resources] Started resource vorp_menu
+[    c-scripting-core] Creating script environments for vorp_core
+[           resources] Started resource vorp_core
+[           resources] Started resource vorp_inputs
+[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] Creating script environments for vorp_character
+[           resources] Started resource vorp_character
+[    c-scripting-core] Creating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://kidirro-ro3pbj.users.cfx.re/
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_character) ✅ Up to date - Version 1.7
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ✅ Up to date - Version 2.9
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ✅ Up to date - Version 2.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ✅ Up to date - Version 4.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_menu) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Database Auto Updater 
+[    script:vorp_core] 
+[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
+[    script:vorp_core] ###############################################################################
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[      script:hardcap] Connecting: ФимоZ
+║             TXADMIN║ txaEvent "announcement" "{\"message\":\"卍\",\"author\":\"Kidirro\"}"
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "undead_custom"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for undead_custom
+[           resources] Started resource undead_custom
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ stop "undead_custom"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource undead_custom
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "undead_custom"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for undead_custom
+[           resources] Started resource undead_custom
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "undead_custom"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource undead_custom
+[    c-scripting-core] Creating script environments for undead_custom
+[           resources] Started resource undead_custom
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "undead_custom"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource undead_custom
+[    c-scripting-core] Creating script environments for undead_custom
+[           resources] Started resource undead_custom
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Kidirro\",\"message\":\"Server shutting down (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
