@@ -46,18 +46,17 @@ RegisterCommand("giveweapon", function(source, args, rawcommand)
     
     playerPed = PlayerPedId();
     local hashWeapon = GetHashKey(args[1])
-    local ammovalue = tonumber(args[2])
-    if HasPedGotWeapon(playerPed, hashWeapon,false) == false then
-        GiveWeaponToPed(playerPed, GetHashKey(args[1]),ammovalue, false,true)
+    local ammoValue = tonumber(args[2])
+    if HasPedGotWeapon(playerPed, hashWeapon,false) then
+        AddAmmoToPed(playerPed,hashWeapon,ammoValue)
     else
-        AddAmmoToPed(playerPed,hashWeapon,ammovalue)
+        GiveWeaponToPed(playerPed,hashWeapon,ammoValue, false,true)
     end
     
 end, false)
 
 RegisterCommand("giveammo", function(source, args, rawcommand)
     local ammoType = args[1]
-    local ammoTypeHash = GetHashKey(args[1])
     local ammoValue  = tonumber(args[2])
     AddAmmoToPedByType(PlayerPedId(),ammoType,ammoValue)
 end, false)
