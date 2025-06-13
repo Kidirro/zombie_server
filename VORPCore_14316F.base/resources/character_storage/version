@@ -1,0 +1,40 @@
+<1.0.6>
+- Added automatic deletion of unused storages after configurable time period (default 60 days)
+
+<1.0.5>
+- Made the isPreset flag automatic - no longer needs to be specified in config
+- Improved reliability of storage permission system
+- Fixed an issue with "Search Nearby Players" not finding players. Changed language to "Search players", and now finds all players currently online instead.
+- Added option to only show blips for storages the player has access to
+- Added admin command to show/hide all storage blips regardless of access
+- Improved permission checking for storage blip visibility
+- Removed dependency on syn_inputs. Now uses VORP native inputs
+
+<1.0.4>
+- Added option to create preconfigured storages including linked storages (useful for shared police or doctor storages for example)
+- Added option for players to give specified job access to their storages
+- Improved data consistency for preset storage blip information sent from server to client.
+- Modified script to by default allow shared storage visibility (was off for testing purposes)
+
+<1.0.3>
+- Fixed an issue with storages not loading on server start (requiring a manual restart of the script for storages to appear)
+- Fixed an issue where after deleting a storage, the blip on the map remained and the prompt was interactable
+
+<1.0.2>
+- Fixed some language issues
+- Added a configurable multiplier to upgrading the storage
+
+<1.0.1>
+- Added version checking system
+- Created README documentation
+- Fixed bug with player removal from storage access list
+- Code optimizations and documentation improvements
+
+<1.0.0>
+- Initial release
+- Player storage creation system
+- Storage access management
+- Storage capacity upgrades
+- Multi-language support (English and Spanish)
+- Storage renaming system
+- Admin commands for storage management

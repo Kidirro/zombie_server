@@ -16,16 +16,16 @@ sv_maxclients 48
 sv_enforceGameBuild 1491 #September 2022 update
 set gamename rdr3
 set steam_webApiKey "F54B7338A011B1FFE1EFDCAC308D8296"
-set mysql_connection_string "mysql://root@localhost/VORPCore_14316F?charset=utf8mb4"
+set mysql_connection_string "mysql://root@localhost/VORPCore_2A530D?charset=utf8mb4"
 set mysql_slow_query_warning 200    # to only show warnings above 700
 load_server_icon icon.png  #REPLACE the icon.png found in the folder to your logo 96x96
-sets tags "roleplay, western, bandits"
+sets tags "roleplay, western, bandits, faggots"
 set txAdmin-menuPtfxDisable true
 ## You SHOULD edit the following:
-sv_hostname "zombie-test built with VORPCore!"
+sv_hostname "zombie pisi popi"
 sets sv_projectName "[VORPCore] zombie-test"
-sets sv_projectDesc "VorpCore Official txAdmin recipe! This will set up a base vorp official server."
-sets locale "root-AQ" # change to your language (eg. en-US, pt-BR, de-DE)
+sets sv_projectDesc "Tyt kakut i pisaut"
+sets locale "ru" # change to your language (eg. en-US, pt-BR, de-DE)
 set resources_useSystemChat true #chat resource is now found within the artifacts
 
 ## Turns off the information about players joining and leaving the server on the chat.
@@ -61,37 +61,46 @@ exec resources/[VORP]/vorp_admin/vorp_perms.cfg
 ## VORP Resources
 ensure vorp_core
 ensure vorp_inputs
-ensure vorp_progressbar
+#ensure vorp_progressbar
 ensure vorp_inventory
 ensure vorp_character
 ensure vorp_utils
 ensure vorp_admin
-ensure vorp_metabolism
-ensure vorp_doorlocks
-ensure vorp_barbershop
-ensure vorp_postman
-ensure vorp_hunting
-ensure vorp_stables
-ensure vorp_weaponsv2
-ensure vorp_stores
-ensure vorp_fishing
-ensure vorp_crawfish
-ensure vorp_housing
-ensure vorp_banking
-ensure vorp_mailbox
-ensure vorp_walkanim
-ensure vorp_police
-ensure vorp_crafting
-ensure vorp_zonenotify
-ensure vorp_mining
-ensure vorp_lumberjack
-ensure vorp_animations 
-ensure vorp_outlaws
-ensure vorp_medic
-ensure vorp_billing
-ensure vorp_paycheck
-ensure vorp_wildhorse
-ensure vorp_lootnpcs
+#ensure vorp_metabolism
+#ensure vorp_doorlocks
+#ensure vorp_barbershop
+#ensure vorp_postman
+#ensure vorp_hunting
+#ensure vorp_stables
+#ensure vorp_weaponsv2
+#ensure vorp_stores
+#ensure vorp_fishing
+#ensure vorp_crawfish
+#ensure vorp_housing
+#ensure vorp_banking
+#ensure vorp_mailbox
+#ensure vorp_walkanim
+#ensure vorp_police
+#ensure vorp_crafting
+#ensure vorp_zonenotify
+#ensure vorp_mining
+#ensure vorp_lumberjack
+#ensure vorp_animations 
+#ensure vorp_outlaws
+#ensure vorp_medic
+#ensure vorp_billing
+#ensure vorp_paycheck
+#ensure vorp_wildhorse
+#ensure vorp_lootnpcs
+
+ensure walk_speed
+start walk_speed
+
+ensure undead_custom
+ensure character_storage
+
+ensure uiprompt
+start uiprompt
 
 ## Add system admins
 add_ace group.admin command allow # allow all commands

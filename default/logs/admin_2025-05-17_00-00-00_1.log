@@ -1,0 +1,22 @@
+================================================================
+======== txAdmin v8.0.1 atop fxserver 13544 Starting - 16.05.2025, 22:38:44
+================================================================
+================================================================
+======== Log Rotated - 16.05.2025, 22:38:45                     
+================================================================
+[23:01:45][Kidirro] logged in from 127.0.0.1 via cfxre
+[23:01:51][Kidirro] Ensured resource "undead_custom"
+[23:03:05][Kidirro] Ensured resource "undead_custom"
+[23:15:17][Kidirro] Ensured resource "undead_custom"
+[23:21:15][Kidirro] Ensured resource "undead_custom"
+[23:23:36][Kidirro] Ensured resource "undead_custom"
+[23:26:08][Kidirro] [Kidirro] executed "RESTART SERVER"
+[23:26:15][Kidirro] Ensured resource "undead_custom"
+[23:26:19][Kidirro] [Kidirro] executed "STOP SERVER"
+[23:26:33][Kidirro] [Kidirro] executed "START SERVER"
+[23:26:57][Kidirro] [Kidirro] executed "RESTART SERVER"
+[14:33:18][Kidirro] Ensured resource "undead_custom"
+[14:38:45][Kidirro] Ensured resource "undead_custom"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 13544 Starting - 17.05.2025, 22:45:25
+================================================================

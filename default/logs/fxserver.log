@@ -1,133 +1,486 @@
 ================================================================
-======== Log Rotated - 05.05.2025, 00:00:00                     
+======== Log Rotated - 13.06.2025, 01:44:48                     
 ================================================================
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [9704] FXServer Starting - 13.06.2025, 01:44:48        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 79 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[           resources] Started resource pma-display
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource redm-ipls
+[           resources] Started resource syn_minigame
+[           resources] Started resource lockpick
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[           resources] Started resource moonshine_interiors
+[           resources] Started resource vorp_menu
+[    c-scripting-core] Creating script environments for vorp_core
+[           resources] Started resource vorp_core
+[           resources] Started resource vorp_inputs
+[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] Creating script environments for vorp_character
+[           resources] Started resource vorp_character
+[    c-scripting-core] Creating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[    c-scripting-core] Creating script environments for undead_custom
+[           resources] Started resource undead_custom
+[    c-scripting-core] Creating script environments for character_storage
+[script:character_sto] Initializing character storage system...
+[           resources] Started resource character_storage
+[           resources] Started resource uiprompt
+[    c-scripting-core] Creating script environments for spooner
+[           resources] Started resource spooner
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[script:undead_custom] [ZoneSystem] Запуск зоны:	fortmercer
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[script:character_sto] No character storages to register
+[script:character_sto] Character storage system initialized. DB Storages: 0, Preset Configs: 2. Total in cache: 2
+[script:character_sto] Deleted 0 expired storages (not accessed in the last 60 days)
+[script:character_sto] Broadcasting storage data to 0 connected players
+[script:character_sto] Successfully sent storage data to 0 out of 0 players
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ❌ Outdated (v2.9) - Update found: Version 3.0 (https://github.com/VORPCORE/vorp_core-lua)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ❌ Outdated (v4.1) - Update found: Version 4.2 (https://github.com/VORPCORE/vorp_inventory-lua)
+[    script:vorp_core] 
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CORE - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - moved webhooks to a new config file 
+[    script:vorp_core] - added new event to catch when player has finished loading (onPlayerSpawned) 
+[    script:vorp_core] - added logic to set frist player to admin usually is the owner. 
+[    script:vorp_core] - added command to give group to character (addGroupChar) since there is one for user groups (addGroup) 
+[    script:vorp_core] - report crash api has changed make this update so you continue to report crashes  
+[    script:vorp_core] - fixed award events that wasnt cancelling them
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_INVENTORY - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - added logs to server for security (update as soon as possible) 
+[    script:vorp_core] - added option to spawn weapons with old boxes 
+[    script:vorp_core] - added event to reset fishing state when you remove fishing rod with inventory (this was breaking vorp_fishing when i bait was left in the rod) update fishing tool 
+[    script:vorp_core] - fixed addItemsToCustomInventory export 
+[    script:vorp_core] - GetEquippedWeaponData statebag is now replicated  
+[    script:vorp_core] - fixed error when using openPlayerInventory exports and logs 
+[    script:vorp_core] - added getCustomInventorySlots export (only to whats in cache slots are not saved) 
+[    script:vorp_core] - fixed ignore stack item for custom inventories  
+[    script:vorp_core] - updateItemInCustomInventory has a new variable to pass  
+[    script:vorp_core] - items with metadata with and image name now updates inventory cache so it displays the custom images as long they are in the imgs folder 
+[    script:vorp_core] - config to disable dual wielding 
+[    script:vorp_core] - ensure metadata label is displayed on pickups 
+[    script:vorp_core] - added some images for items
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_character) ✅ Up to date - Version 1.7
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ✅ Up to date - Version 2.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_menu) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Database Auto Updater 
+[    script:vorp_core] 
+[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
+[    script:vorp_core] ###############################################################################
+[script:character_sto] ======================================================
+[script:character_sto] [Character Storage] Checking for updates...
+[script:character_sto] ======================================================
+[script:character_sto] [Character Storage] Update available!
+[script:character_sto] [Character Storage] Current version: 1.0.6
+[script:character_sto] [Character Storage] Latest version: 1.0.7
+[script:character_sto] [Character Storage] Download: https://github.com/RosewoodRidge/REDM-Character-Storage/releases/tag/1.0.7
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://kidirro-ro3pbj.users.cfx.re/
 [      script:hardcap] Connecting: ФимоZ
-║             TXADMIN║ txaReportResources 
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║             Kidirro║ ensure "Zeus_Scope"
-║             TXADMIN║ txaReportResources 
-[    c-scripting-core] Creating script environments for Zeus_Scope
-[           resources] Started resource Zeus_Scope
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║             Kidirro║ ensure "vorp_weaponsv2"
-║             TXADMIN║ txaReportResources 
-[    c-scripting-core] Creating script environments for vorp_weaponsv2
-[           resources] Started resource vorp_weaponsv2
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║             Kidirro║ ensure "undead_custom"
-║             TXADMIN║ txaReportResources 
+[      script:hardcap] Connecting: ФимоZ
+[      script:hardcap] Connecting: ФимоZ
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [15088] FXServer Starting - 13.06.2025, 20:28:59       
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 79 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[           resources] Started resource pma-display
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource redm-ipls
+[           resources] Started resource syn_minigame
+[           resources] Started resource lockpick
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[           resources] Started resource moonshine_interiors
+[           resources] Started resource vorp_menu
+[    c-scripting-core] Creating script environments for vorp_core
+[           resources] Started resource vorp_core
+[           resources] Started resource vorp_inputs
+[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] Creating script environments for vorp_character
+[           resources] Started resource vorp_character
+[    c-scripting-core] Creating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
 [    c-scripting-core] Creating script environments for undead_custom
 [           resources] Started resource undead_custom
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-[script:undead_custom] get init trying	1
-║             Kidirro║ ensure "vorp_progressbar"
-║             TXADMIN║ txaReportResources 
-[    c-scripting-core] Creating script environments for vorp_progressbar
-[           resources] Started resource vorp_progressbar
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║             Kidirro║ ensure "vorp_weaponsv2"
-[           resources] Stopping resource vorp_weaponsv2
-║             TXADMIN║ txaReportResources 
-[    c-scripting-core] Creating script environments for vorp_weaponsv2
-[           resources] Started resource vorp_weaponsv2
-[script:vorp_inventor] Warning: item 	ammoelephant	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoriflesplitpoint	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorifleexplosive	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoriflevelocity	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorifleexpress	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoriflenormal	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorevolvernormal	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorevolversplitpoint	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorevolvervelocity	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorevolverexplosive	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorevolverexpress	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammopistolvelocity	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammopistolexpress	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammopistolnormal	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammopistolsplitpoint	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammopistolexplosive	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoarrownormal	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoarrowimproved	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoarrowdynamite	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoarrowfire	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoarrowpoison	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoarrowsmallgame	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammovarminttranq	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammovarmint	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammovolmolotov	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoknives	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammodynamite	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammopoisonbottle	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammobolla	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammovoldynamite	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammomolotov	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammotomahawk	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorepeatersplitpoint	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorepeatervelocity	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorepeaternormal	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorepeaterexplosive	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammorepeaterexpress	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoshotgunnormal	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoshotgunslug	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoshotgunexplosive	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[script:vorp_inventor] Warning: item 	ammoshotgunincendiary	 is already registered,  cant register the same item twice 	
-[script:vorp_inventor] Info: if you restarting a script this is normal and you can ignore it!.
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║             Kidirro║ ensure "undead_custom"
-║             TXADMIN║ txaReportResources 
-[           resources] Stopping resource undead_custom
+[    c-scripting-core] Creating script environments for character_storage
+[script:character_sto] Initializing character storage system...
+[           resources] Started resource character_storage
+[           resources] Started resource uiprompt
+[    c-scripting-core] Creating script environments for spooner
+[           resources] Started resource spooner
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[script:undead_custom] [ZoneSystem] Запуск зоны:	fortmercer
+[      script:oxmysql] Unable to establish a connection to the database (ECONNREFUSED)!
+[      script:oxmysql] Error -4078: connect ECONNREFUSED 127.0.0.1:3306
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "VORPCore_2A530D",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://kidirro-ro3pbj.users.cfx.re/
+[script:character_sto] Storage system not yet initialized. Cannot send data to players.
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ❌ Outdated (v2.9) - Update found: Version 3.0 (https://github.com/VORPCORE/vorp_core-lua)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ❌ Outdated (v4.1) - Update found: Version 4.2 (https://github.com/VORPCORE/vorp_inventory-lua)
+[    script:vorp_core] 
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CORE - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - moved webhooks to a new config file 
+[    script:vorp_core] - added new event to catch when player has finished loading (onPlayerSpawned) 
+[    script:vorp_core] - added logic to set frist player to admin usually is the owner. 
+[    script:vorp_core] - added command to give group to character (addGroupChar) since there is one for user groups (addGroup) 
+[    script:vorp_core] - report crash api has changed make this update so you continue to report crashes  
+[    script:vorp_core] - fixed award events that wasnt cancelling them
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_INVENTORY - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - added logs to server for security (update as soon as possible) 
+[    script:vorp_core] - added option to spawn weapons with old boxes 
+[    script:vorp_core] - added event to reset fishing state when you remove fishing rod with inventory (this was breaking vorp_fishing when i bait was left in the rod) update fishing tool 
+[    script:vorp_core] - fixed addItemsToCustomInventory export 
+[    script:vorp_core] - GetEquippedWeaponData statebag is now replicated  
+[    script:vorp_core] - fixed error when using openPlayerInventory exports and logs 
+[    script:vorp_core] - added getCustomInventorySlots export (only to whats in cache slots are not saved) 
+[    script:vorp_core] - fixed ignore stack item for custom inventories  
+[    script:vorp_core] - updateItemInCustomInventory has a new variable to pass  
+[    script:vorp_core] - items with metadata with and image name now updates inventory cache so it displays the custom images as long they are in the imgs folder 
+[    script:vorp_core] - config to disable dual wielding 
+[    script:vorp_core] - ensure metadata label is displayed on pickups 
+[    script:vorp_core] - added some images for items
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_character) ✅ Up to date - Version 1.7
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ✅ Up to date - Version 2.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_menu) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[script:character_sto] ======================================================
+[script:character_sto] [Character Storage] Checking for updates...
+[script:character_sto] ======================================================
+[script:character_sto] [Character Storage] Update available!
+[script:character_sto] [Character Storage] Current version: 1.0.6
+[script:character_sto] [Character Storage] Latest version: 1.0.7
+[script:character_sto] [Character Storage] Download: https://github.com/RosewoodRidge/REDM-Character-Storage/releases/tag/1.0.7
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [16920] FXServer Starting - 13.06.2025, 20:29:43       
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 79 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[           resources] Started resource pma-display
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource redm-ipls
+[           resources] Started resource syn_minigame
+[           resources] Started resource lockpick
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[           resources] Started resource moonshine_interiors
+[           resources] Started resource vorp_menu
+[    c-scripting-core] Creating script environments for vorp_core
+[           resources] Started resource vorp_core
+[           resources] Started resource vorp_inputs
+[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] Creating script environments for vorp_character
+[           resources] Started resource vorp_character
+[    c-scripting-core] Creating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
 [    c-scripting-core] Creating script environments for undead_custom
 [           resources] Started resource undead_custom
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-[script:undead_custom] get init trying	1
-║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Kidirro\",\"message\":\"Server restarting (admin request).\"}"
+[    c-scripting-core] Creating script environments for character_storage
+[script:character_sto] Initializing character storage system...
+[           resources] Started resource character_storage
+[           resources] Started resource uiprompt
+[    c-scripting-core] Creating script environments for spooner
+[           resources] Started resource spooner
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[script:undead_custom] [ZoneSystem] Запуск зоны:	fortmercer
+[      script:oxmysql] Unable to establish a connection to the database (ECONNREFUSED)!
+[      script:oxmysql] Error -4078: connect ECONNREFUSED 127.0.0.1:3306
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "VORPCore_2A530D",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://kidirro-ro3pbj.users.cfx.re/
+[script:character_sto] Storage system not yet initialized. Cannot send data to players.
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ❌ Outdated (v2.9) - Update found: Version 3.0 (https://github.com/VORPCORE/vorp_core-lua)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ❌ Outdated (v4.1) - Update found: Version 4.2 (https://github.com/VORPCORE/vorp_inventory-lua)
+[    script:vorp_core] 
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CORE - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - moved webhooks to a new config file 
+[    script:vorp_core] - added new event to catch when player has finished loading (onPlayerSpawned) 
+[    script:vorp_core] - added logic to set frist player to admin usually is the owner. 
+[    script:vorp_core] - added command to give group to character (addGroupChar) since there is one for user groups (addGroup) 
+[    script:vorp_core] - report crash api has changed make this update so you continue to report crashes  
+[    script:vorp_core] - fixed award events that wasnt cancelling them
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_INVENTORY - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - added logs to server for security (update as soon as possible) 
+[    script:vorp_core] - added option to spawn weapons with old boxes 
+[    script:vorp_core] - added event to reset fishing state when you remove fishing rod with inventory (this was breaking vorp_fishing when i bait was left in the rod) update fishing tool 
+[    script:vorp_core] - fixed addItemsToCustomInventory export 
+[    script:vorp_core] - GetEquippedWeaponData statebag is now replicated  
+[    script:vorp_core] - fixed error when using openPlayerInventory exports and logs 
+[    script:vorp_core] - added getCustomInventorySlots export (only to whats in cache slots are not saved) 
+[    script:vorp_core] - fixed ignore stack item for custom inventories  
+[    script:vorp_core] - updateItemInCustomInventory has a new variable to pass  
+[    script:vorp_core] - items with metadata with and image name now updates inventory cache so it displays the custom images as long they are in the imgs folder 
+[    script:vorp_core] - config to disable dual wielding 
+[    script:vorp_core] - ensure metadata label is displayed on pickups 
+[    script:vorp_core] - added some images for items
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_character) ✅ Up to date - Version 1.7
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ✅ Up to date - Version 2.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_menu) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[script:character_sto] ======================================================
+[script:character_sto] [Character Storage] Checking for updates...
+[script:character_sto] ======================================================
+[script:character_sto] [Character Storage] Update available!
+[script:character_sto] [Character Storage] Current version: 1.0.6
+[script:character_sto] [Character Storage] Latest version: 1.0.7
+[script:character_sto] [Character Storage] Download: https://github.com/RosewoodRidge/REDM-Character-Storage/releases/tag/1.0.7
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Database Auto Updater 
+[    script:vorp_core] 
+[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
+[    script:vorp_core] ###############################################################################
+[script:character_sto] No character storages to register
+[script:character_sto] Character storage system initialized. DB Storages: 0, Preset Configs: 2. Total in cache: 2
+[script:character_sto] Deleted 0 expired storages (not accessed in the last 60 days)
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Kidirro\",\"message\":\"Сервер перезагружается (admin request).\"}"
 [      script:monitor] [txAdmin] Server shutting down. Kicking all players.
 
 ║             TXADMIN║ ================================================================
-║             TXADMIN║ ======== [19060] FXServer Starting - 05.05.2025, 00:46:47       
+║             TXADMIN║ ======== [19400] FXServer Starting - 13.06.2025, 20:30:22       
 ║             TXADMIN║ ================================================================
 [           resources] Scanning resources.
-[           resources] Found 74 resources.
+[           resources] Found 79 resources.
 [          svadhesive] Authenticating server license key...
 [          svadhesive] Server license key authentication succeeded. Welcome!
 [    c-scripting-core] Creating script environments for yarn
@@ -175,121 +528,21 @@
 [           resources] Started resource vorp_admin
 [    c-scripting-core] Creating script environments for walk_speed
 [           resources] Started resource walk_speed
-[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
-[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
-[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
-[      script:oxmysql] Warning: vorp_inventory executed a query with an oversized result set (1014 results)!
-[      script:oxmysql] SELECT * FROM items
-[    script:vorp_core] ###############################################################################
-[    script:vorp_core] 
-[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
-[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
-[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
-[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
-[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
-[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
-[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
-[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
-[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
-[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
-[    script:vorp_core] 
-[    script:vorp_core] VORPcore Version check 
-[    script:vorp_core] Resources found
-[    script:vorp_core] 
-[    script:vorp_core] 
-[    script:vorp_core] ###############################################################################
-[    script:vorp_core] Resource version Check (vorp_character) ✅ Up to date - Version 1.7
-[    script:vorp_core] 
-[    script:vorp_core] Resource version Check (vorp_core) ✅ Up to date - Version 2.9
-[    script:vorp_core] 
-[    script:vorp_core] Resource version Check (vorp_admin) ✅ Up to date - Version 2.6
-[    script:vorp_core] 
-[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
-[    script:vorp_core] 
-[    script:vorp_core] Resource version Check (vorp_inventory) ✅ Up to date - Version 4.1
-[    script:vorp_core] 
-[    script:vorp_core] Resource version Check (vorp_menu) ✅ Up to date - Version 1.0
-[    script:vorp_core] 
-[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
-[    script:vorp_core] 
-[    script:vorp_core] 
-[    script:vorp_core] VORPcore Database Auto Updater 
-[    script:vorp_core] 
-[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
-[    script:vorp_core] ###############################################################################
-[ citizen-server-impl]         fff                          
-[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
-[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
-[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
-[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[ citizen-server-impl]                                      
-[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://kidirro-ro3pbj.users.cfx.re/
-[      script:hardcap] Connecting: ФимоZ
-║             TXADMIN║ txaReportResources 
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║             Kidirro║ ensure "undead_custom"
-║             TXADMIN║ txaReportResources 
 [    c-scripting-core] Creating script environments for undead_custom
 [           resources] Started resource undead_custom
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-[script:undead_custom] get init trying	1
-║             TXADMIN║ ================================================================
-║             TXADMIN║ ======== [8880] FXServer Starting - 05.05.2025, 19:26:12        
-║             TXADMIN║ ================================================================
-[           resources] Scanning resources.
-[           resources] Found 74 resources.
-[          svadhesive] Authenticating server license key...
-[          svadhesive] Server license key authentication succeeded. Welcome!
-[    c-scripting-core] Creating script environments for yarn
-[           resources] Started resource yarn
-[    c-scripting-core] Creating script environments for sessionmanager-rdr3
-[           resources] Started resource sessionmanager-rdr3
-[    c-scripting-core] Creating script environments for monitor
-[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
-[           resources] Started resource monitor
-[    c-scripting-core] Creating script environments for mapmanager
-[           resources] Started resource mapmanager
-[    c-scripting-core] Creating script environments for chat
-[           resources] Started resource chat
-[           resources] Started resource spawnmanager
-[   script:mapmanager] Started gametype Freeroam
-[           resources] Started resource basic-gamemode
-[   script:mapmanager] Started map redm-map-one
-[           resources] Started resource redm-map-one
-[    c-scripting-core] Creating script environments for hardcap
-[           resources] Started resource hardcap
-[    c-scripting-core] Creating script environments for pma-voice
-[           resources] Started resource pma-voice
-[           resources] Started resource pma-display
-[    c-scripting-core] Creating script environments for oxmysql
-[           resources] Started resource oxmysql
-[    c-scripting-core] Creating script environments for weathersync
-[           resources] Started resource weathersync
-[           resources] Started resource redm-ipls
-[           resources] Started resource syn_minigame
-[           resources] Started resource lockpick
-[    c-scripting-core] Creating script environments for PolyZone
-[           resources] Started resource PolyZone
-[           resources] Started resource moonshine_interiors
-[           resources] Started resource vorp_menu
-[    c-scripting-core] Creating script environments for vorp_core
-[           resources] Started resource vorp_core
-[           resources] Started resource vorp_inputs
-[    c-scripting-core] Creating script environments for vorp_inventory
-[           resources] Started resource vorp_inventory
-[    c-scripting-core] Creating script environments for vorp_character
-[           resources] Started resource vorp_character
-[    c-scripting-core] Creating script environments for vorp_utils
-[           resources] Started resource vorp_utils
-[    c-scripting-core] Creating script environments for vorp_admin
-[           resources] Started resource vorp_admin
-[    c-scripting-core] Creating script environments for walk_speed
-[           resources] Started resource walk_speed
+[    c-scripting-core] Creating script environments for character_storage
+[script:character_sto] Initializing character storage system...
+[           resources] Started resource character_storage
+[           resources] Started resource uiprompt
+[    c-scripting-core] Creating script environments for spooner
+[           resources] Started resource spooner
 [ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
 [ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[script:undead_custom] [ZoneSystem] Запуск зоны:	fortmercer
 [      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
-[      script:oxmysql] Warning: vorp_inventory executed a query with an oversized result set (1014 results)!
-[      script:oxmysql] SELECT * FROM items
+[script:character_sto] No character storages to register
+[script:character_sto] Character storage system initialized. DB Storages: 0, Preset Configs: 2. Total in cache: 2
+[script:character_sto] Deleted 0 expired storages (not accessed in the last 60 days)
 [ citizen-server-impl]         fff                          
 [ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
 [ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
@@ -313,17 +566,45 @@
 [    script:vorp_core] VORPcore Version check 
 [    script:vorp_core] Resources found
 [    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ❌ Outdated (v2.9) - Update found: Version 3.0 (https://github.com/VORPCORE/vorp_core-lua)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ❌ Outdated (v4.1) - Update found: Version 4.2 (https://github.com/VORPCORE/vorp_inventory-lua)
+[    script:vorp_core] 
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CORE - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - moved webhooks to a new config file 
+[    script:vorp_core] - added new event to catch when player has finished loading (onPlayerSpawned) 
+[    script:vorp_core] - added logic to set frist player to admin usually is the owner. 
+[    script:vorp_core] - added command to give group to character (addGroupChar) since there is one for user groups (addGroup) 
+[    script:vorp_core] - report crash api has changed make this update so you continue to report crashes  
+[    script:vorp_core] - fixed award events that wasnt cancelling them
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_INVENTORY - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - added logs to server for security (update as soon as possible) 
+[    script:vorp_core] - added option to spawn weapons with old boxes 
+[    script:vorp_core] - added event to reset fishing state when you remove fishing rod with inventory (this was breaking vorp_fishing when i bait was left in the rod) update fishing tool 
+[    script:vorp_core] - fixed addItemsToCustomInventory export 
+[    script:vorp_core] - GetEquippedWeaponData statebag is now replicated  
+[    script:vorp_core] - fixed error when using openPlayerInventory exports and logs 
+[    script:vorp_core] - added getCustomInventorySlots export (only to whats in cache slots are not saved) 
+[    script:vorp_core] - fixed ignore stack item for custom inventories  
+[    script:vorp_core] - updateItemInCustomInventory has a new variable to pass  
+[    script:vorp_core] - items with metadata with and image name now updates inventory cache so it displays the custom images as long they are in the imgs folder 
+[    script:vorp_core] - config to disable dual wielding 
+[    script:vorp_core] - ensure metadata label is displayed on pickups 
+[    script:vorp_core] - added some images for items
+[    script:vorp_core] ###############################
 [    script:vorp_core] 
 [    script:vorp_core] ###############################################################################
 [    script:vorp_core] Resource version Check (vorp_character) ✅ Up to date - Version 1.7
 [    script:vorp_core] 
-[    script:vorp_core] Resource version Check (vorp_core) ✅ Up to date - Version 2.9
-[    script:vorp_core] 
 [    script:vorp_core] Resource version Check (vorp_admin) ✅ Up to date - Version 2.6
 [    script:vorp_core] 
 [    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
-[    script:vorp_core] 
-[    script:vorp_core] Resource version Check (vorp_inventory) ✅ Up to date - Version 4.1
 [    script:vorp_core] 
 [    script:vorp_core] Resource version Check (vorp_menu) ✅ Up to date - Version 1.0
 [    script:vorp_core] 
@@ -334,4 +615,22 @@
 [    script:vorp_core] 
 [    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
 [    script:vorp_core] ###############################################################################
+[script:character_sto] Broadcasting storage data to 0 connected players
+[script:character_sto] Successfully sent storage data to 0 out of 0 players
+[script:character_sto] ======================================================
+[script:character_sto] [Character Storage] Checking for updates...
+[script:character_sto] ======================================================
+[script:character_sto] [Character Storage] Update available!
+[script:character_sto] [Character Storage] Current version: 1.0.6
+[script:character_sto] [Character Storage] Latest version: 1.0.7
+[script:character_sto] [Character Storage] Download: https://github.com/RosewoodRidge/REDM-Character-Storage/releases/tag/1.0.7
 [      script:hardcap] Connecting: ФимоZ
+[      script:hardcap] Connecting: ФимоZ
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Kidirro║ ensure "walk_speed"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource walk_speed
+[    c-scripting-core] Creating script environments for walk_speed
+[           resources] Started resource walk_speed
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.

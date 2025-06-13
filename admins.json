@@ -37,5 +37,30 @@
       "players.playermode",
       "players.teleport"
     ]
+  },
+  {
+    "$schema": 1,
+    "name": "erlikkhan",
+    "master": false,
+    "password_hash": "$2a$11$DnR/aJR/OLxjLwBfn7rrT.U3SEPZTdSBxfaNl9XGcwWJkZk5B2.H6",
+    "password_temporary": true,
+    "providers": {
+      "citizenfx": {
+        "id": "Erlik_Khan",
+        "identifier": "fivem:15662906",
+        "data": {}
+      },
+      "discord": {
+        "id": "317367243098947588",
+        "identifier": "discord:317367243098947588",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "menu.vehicle",
+      "players.heal",
+      "players.playermode",
+      "players.teleport"
+    ]
   }
 ]

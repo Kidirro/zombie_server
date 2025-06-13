@@ -1,87 +1,16 @@
 ================================================================
-======== txAdmin v8.0.1 atop fxserver 13544 Starting - 04.05.2025, 00:03:00
+======== txAdmin v8.0.1 atop fxserver 13544 Starting - 13.06.2025, 01:44:47
 ================================================================
 ================================================================
-======== Log Rotated - 04.05.2025, 00:03:01                     
+======== Log Rotated - 13.06.2025, 01:44:48                     
+================================================================
+[01:46:14][Kidirro] logged in from 127.0.0.1 via cfxre
+================================================================
+======== txAdmin v8.0.1 atop fxserver 13544 Starting - 13.06.2025, 20:28:58
 ================================================================
 ================================================================
-======== txAdmin v8.0.1 atop fxserver 13544 Starting - 04.05.2025, 00:03:16
+======== txAdmin v8.0.1 atop fxserver 13544 Starting - 13.06.2025, 20:29:43
 ================================================================
-[00:53:08][Kidirro] logged in from 127.0.0.1 via cfxre
-[00:53:33][Kidirro] [Kidirro] executed "RESTART SERVER"
-[00:53:34][Kidirro] Refreshed resources
-[00:54:51][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[00:56:14][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[00:56:47][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[00:59:28][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:03:13][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:03:46][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:08:26][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:11:37][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:11:48][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:12:17][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:13:29][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:14:07][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:17:26][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:18:43][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:43:56][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:46:09][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:47:32][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:49:58][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:50:50][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:52:05][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:57:50][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[01:59:31][Kidirro] Stopped resource "Zeus_Reload_Minigame"
-[02:07:13][Kidirro] Ensured resource "undead_custom"
-[02:29:03][Kidirro] Ensured resource "undead_custom"
-[02:30:00][Kidirro] Ensured resource "undead_custom"
-[02:30:38][Kidirro] Ensured resource "undead_custom"
-[02:32:00][Kidirro] Ensured resource "undead_custom"
-[02:32:15][Kidirro] Ensured resource "undead_custom"
-[02:33:44][Kidirro] Ensured resource "undead_custom"
-[03:20:24][Kidirro] Ensured resource "undead_custom"
-[03:21:09][Kidirro] Ensured resource "undead_custom"
-[03:21:39][Kidirro] Ensured resource "undead_custom"
-[03:23:48][Kidirro] Ensured resource "undead_custom"
-[03:24:30][Kidirro] Ensured resource "undead_custom"
-[03:27:31][Kidirro] Ensured resource "undead_custom"
-[03:30:25][Kidirro] Ensured resource "undead_custom"
-[03:33:30][Kidirro] Ensured resource "undead_custom"
-[03:34:21][Kidirro] Ensured resource "undead_custom"
-[03:34:33][Kidirro] Ensured resource "undead_custom"
-[03:36:00][Kidirro] Ensured resource "undead_custom"
-[03:36:16][Kidirro] Ensured resource "undead_custom"
-[03:36:52][Kidirro] Ensured resource "undead_custom"
-[03:37:15][Kidirro] Ensured resource "undead_custom"
-[03:37:32][Kidirro] Ensured resource "undead_custom"
-================================================================
-======== txAdmin v8.0.1 atop fxserver 13544 Starting - 04.05.2025, 15:32:36
-================================================================
-[15:33:31][Kidirro] logged in from 127.0.0.1 via cfxre
-[15:51:20][Kidirro] Ensured resource "undead_custom"
-[15:54:34][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[15:54:34][Kidirro] Ensured resource "Zeus_Reload_Minigame"
-[15:57:41][Kidirro] Stopped resource "Zeus_Reload_Minigame"
-[16:07:49][Kidirro] Ensured resource "walk_speed"
-[16:07:50][Kidirro] Ensured resource "undead_custom"
-[20:00:54][Kidirro] [Kidirro] executed "RESTART SERVER"
-[20:01:30][Kidirro] Refreshed resources
-[20:02:03][Kidirro] Ensured resource "Zeus_Scope"
-[20:24:56][Kidirro] Ensured resource "undead_custom"
-[22:26:08][Kidirro] Ensured resource "Zeus_Scope"
-[22:40:48][Kidirro] Ensured resource "vorp_inventory"
-[22:40:57][Kidirro] Ensured resource "vorp_inventory"
-[22:41:37][Kidirro] [Kidirro] executed "RESTART SERVER"
-[22:52:09][Kidirro] [Kidirro] executed "RESTART SERVER"
-[23:26:59][Kidirro] [Kidirro] executed "RESTART SERVER"
-[00:36:34][Kidirro] Ensured resource "Zeus_Scope"
-[00:39:11][Kidirro] Ensured resource "vorp_weaponsv2"
-[00:40:32][Kidirro] Ensured resource "undead_custom"
-[00:41:57][Kidirro] Ensured resource "vorp_progressbar"
-[00:42:01][Kidirro] Ensured resource "vorp_weaponsv2"
-[00:43:09][Kidirro] Ensured resource "undead_custom"
-[00:46:41][Kidirro] [Kidirro] executed "RESTART SERVER"
-[00:50:01][Kidirro] Ensured resource "undead_custom"
-================================================================
-======== txAdmin v8.0.1 atop fxserver 13544 Starting - 05.05.2025, 19:26:11
-================================================================
+[20:29:59][Kidirro] logged in from 127.0.0.1 via cfxre
+[20:30:16][Kidirro] [Kidirro] executed "RESTART SERVER"
+[21:07:04][Kidirro] Ensured resource "walk_speed"

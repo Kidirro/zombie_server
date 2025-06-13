@@ -1,0 +1,15 @@
+================================================================
+======== txAdmin v8.0.1 atop fxserver 13544 Starting - 19.05.2025, 00:35:15
+================================================================
+================================================================
+======== Log Rotated - 19.05.2025, 00:35:16                     
+================================================================
+================================================================
+======== txAdmin v8.0.1 atop fxserver 13544 Starting - 19.05.2025, 00:42:34
+================================================================
+[00:52:31][Kidirro] logged in from 127.0.0.1 via cfxre
+[00:52:34][Kidirro] [Kidirro] executed "RESTART SERVER"
+[01:09:47][Kidirro] [Kidirro] executed "RESTART SERVER"
+[01:10:14][Kidirro] Config changes: whitelist.mode
+[01:11:06][Kidirro] Stopped resource "moonshine_interiors"
+[01:12:55][Kidirro] Approved whitelist request from ФимоZ.

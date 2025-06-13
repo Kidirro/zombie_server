@@ -1,0 +1,32 @@
+================================================================
+======== txAdmin v8.0.1 atop fxserver 13544 Starting - 10.05.2025, 16:17:57
+================================================================
+================================================================
+======== Log Rotated - 10.05.2025, 16:17:58                     
+================================================================
+[16:18:12][Kidirro] logged in from 127.0.0.1 via cfxre
+[01:34:20][Kidirro] Stopped resource "vorp_admin"
+[01:34:21][Kidirro] Stopped resource "vorp_character"
+[01:34:22][Kidirro] Stopped resource "vorp_core"
+[01:34:23][Kidirro] Stopped resource "vorp_inputs"
+[01:34:26][Kidirro] Stopped resource "vorp_inventory"
+[01:34:28][Kidirro] Stopped resource "vorp_menu"
+[01:34:31][Kidirro] Stopped resource "vorp_utils"
+[01:39:02][Kidirro] [Kidirro] executed "RESTART SERVER"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 13544 Starting - 11.05.2025, 13:51:49
+================================================================
+[14:21:37][Kidirro] logged in from 127.0.0.1 via cfxre
+[01:02:46][Kidirro] [Kidirro] executed "STOP SERVER"
+[01:07:02][Kidirro] logged in from 127.0.0.1 via cfxre
+[01:07:09][Kidirro] [Kidirro] executed "START SERVER"
+[01:07:37][Kidirro] Ensured resource "perm_wagon"
+[01:07:55][Kidirro] [Kidirro] executed "STOP SERVER"
+[01:08:34][Kidirro] [Kidirro] executed "START SERVER"
+[01:08:44][Kidirro] Ensured resource "perm_wagon"
+[01:11:15][Kidirro] Ensured resource "perm_wagon"
+[01:11:34][Kidirro] Ensured resource "perm_wagon"
+[01:12:23][Kidirro] Ensured resource "perm_wagon"
+[01:16:51][Kidirro] Ensured resource "perm_wagon"
+[01:37:51][Kidirro] Ensured resource "undead_custom"
+[01:41:28][Kidirro] Ensured resource "undead_custom"
